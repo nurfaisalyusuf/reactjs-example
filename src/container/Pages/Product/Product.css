@@ -1,0 +1,67 @@
+.header {
+    background: mediumseagreen;
+    width: 30%;
+    min-height: 50px;
+    padding: 23px 10px 0 10px;
+}
+.logo {
+    float: left;
+}
+
+.trolley {
+    float: right;
+    position: relative;
+}
+
+.trolley .count {
+    background: blue;
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    top: 15px;
+    line-height: 30px;
+}
+
+.card {
+    border: 1px solid green;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.card .product-img img {
+    width: 100%;
+}
+
+.product-title {
+    text-align: center;
+    font-weight: bold;
+}
+.minus,
+.plus {
+    width: 15%;
+    height: 40px;
+    background: blue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.counter input {
+    width: 55%;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-price {
+    color: orange;
+    font-weight: bold;
+}

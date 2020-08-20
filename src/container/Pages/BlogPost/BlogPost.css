@@ -1,0 +1,95 @@
+.section-title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.post {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.img-thumb {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.img-thumb img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.content p.title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.content p.desc {
+    margin: 0px;
+    font-size: 16px;
+    color: black;
+}
+
+.remove {
+    padding: 12px 10px;
+    background: coral;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+}
+.update {
+    padding: 12px 10px;
+    background: green;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+}
+.remove:hover, .update:hover {
+    cursor: pointer;
+}
+.form-add-post {
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+.form-add-post input, .form-add-post textarea {
+    outline: none;
+    border: 1px solid grey;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: black;
+}
+.form-add-post .btn-submit {
+    outline: none;
+    border: 1px solid greenyellow;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: coral;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
